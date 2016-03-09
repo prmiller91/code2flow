@@ -184,7 +184,7 @@ class Edge(object):
 		'''
 		ret = self.node0._getUID() + ' -> ' + self.node1._getUID()
 		if self.node1.returns:
-			ret += ' [color="blue" penwidth="2"]'
+			ret += ' [color="blue", style="dashed", penwidth="2"]'
 		return ret
 
 	def hasEndNode(self,node1):
