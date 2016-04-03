@@ -144,7 +144,7 @@ class Node(object):
 		'''
 		attributes = {}
 
-		attributes['label']="%d: %s"%(self.lineNumber,self.getFullName())
+		attributes['label']="%s"%(self.getFullName())
 		attributes['shape']="rect"
 		attributes['style']="rounded"
 		#attributes['splines']='ortho'
